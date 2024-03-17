@@ -5,7 +5,10 @@ import styled from "styled-components"
 import Link from "next/link"
 
 const UserDetailsWrapper = styled.div`
-    margin-top: 20px;
+    background: white;
+    border-radius: 12px;
+    padding: 1rem;
+    width: fit-content;
     div {
         display: flex;
         gap: 20px;
@@ -39,7 +42,7 @@ const UserDetailsPage = () => {
         <div>
             <Link href={`/users`}>Back to Users</Link>
             <h2 className="mt-4">Users Details</h2>
-            <UserDetailsWrapper>
+            <UserDetailsWrapper className="">
                 <div>
                     <p>Name</p>
                     <span>{details?.name}</span>

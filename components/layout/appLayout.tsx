@@ -16,7 +16,7 @@ const AppLayout = (props: any) => {
     const { children } = props 
 
     return (
-        <AppWrapper className={`min-h-screen ${inter.className}`}>
+        <AppWrapper className={`min-h-screen bg-gray-200 ${inter.className}`}>
             <Header />
             <AppContent>
                 {children}

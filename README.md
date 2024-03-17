@@ -1,4 +1,4 @@
-# Next Tailwind Image Editor
+# Next Dev Baseel
 
 ## Project setup
 
@@ -7,7 +7,7 @@
 ```
 npm install
 ```
-- To run project locally or development server
+- To run project locally or for development server
 ```
 npm run dev
 ```

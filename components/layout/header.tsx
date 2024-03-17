@@ -8,6 +8,7 @@ const HeaderWrapper = styled.div`
     padding: 0rem 3rem;
     background: white;
     align-items: center;
+    color: white;
     .nav-links {
         display: flex;
         gap: 25px;
